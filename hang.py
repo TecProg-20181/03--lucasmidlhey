@@ -17,8 +17,15 @@
 
       return word
 
+def isalphanumeric(letter):
+    if(len(letter) == 1):
+        if(letter.isalpha()):
+            return True
+    return False
 
- def loadWords():
+
+
+def loadWords():
      """
      Depending on the size of the word list, this function may
      take a while to finish.
